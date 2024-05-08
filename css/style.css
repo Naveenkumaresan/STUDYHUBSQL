@@ -1,0 +1,439 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  /* background-image:linear-gradient(blue,white);
+   */
+  /* background-color:aliceblue; */
+  background-color: rgb(12, 21, 28);
+  color: aliceblue;
+
+  font-family: "Poppins", sans-serif;
+}
+
+#leftNavbar {
+  position: fixed;
+  top: 0;
+  left: -200px;
+  width: 200px;
+  height: 200vh;
+  /* background-color: #312c2c95; */
+  background-color: rgba(36, 40, 37, 0.496);
+  padding-top: 250px;
+  transition: left 0.3s ease;
+  backdrop-filter: blur(10px);
+  margin-top: -8em;
+}
+
+#leftNavbar a {
+  display: block;
+  color: aliceblue;
+  text-decoration: none;
+  padding: 15px;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 900;
+  text-align: end;
+  border-bottom: 2px solid gray;
+  /* cursor:auto; */
+
+}
+
+
+#leftNavbar li a:hover {
+  position: fixed;
+  /* right: 0; */
+  left: 0;
+  top: 0;
+  /* bottom: 0; */
+  display: inline-block;
+  border-bottom: 2px solid red;
+  transition: all 3s;
+}
+
+#studyhub {
+  cursor: pointer;
+}
+
+
+.nb {
+  /* background-color: rgba(36, 40, 37, 0.856); */
+  position: sticky;
+  top: 0;
+  box-shadow: 2px whitesmoke;
+}
+
+sub {
+  font-size: 20px;
+  /*
+  margin-top: -5em; */
+  margin-left: -15.5em;
+  /* padding-top: 10em; */
+  position: relative;
+  top: 1em;
+  margin-bottom: 1em;
+}
+
+.nb h1 {
+  font-size: 4em;
+  font-weight: 200;
+  padding: 10px 0;
+  /* color: black; */
+}
+
+.nb p {
+  font-weight: 200;
+  font-size: 25px;
+  /* font-style: italic; */
+}
+
+.intro {
+  margin-top: 4em;
+}
+
+.intro h1 {
+  font-weight: 200;
+  max-width: 5em;
+  font-size: 5em;
+}
+
+.intro p {
+  font-weight: 200;
+  font-size: 20px;
+  /* font-style: italic; */
+  max-width: 35em;
+}
+
+.intro img {
+  margin-top: -25em;
+}
+
+.auth {
+  margin-top: 8em;
+}
+
+.hel {
+  margin: 0 0 0 25em;
+}
+
+.hel h1 {
+  font-weight: 200;
+  max-width: 5em;
+  text-transform: uppercase;
+  font-size: 5em;
+}
+
+.hel p {
+  font-weight: 200;
+  font-size: 18px;
+  font-style: italic;
+  max-width: 35em;
+  text-align: start;
+  /* color:black; */
+}
+
+.img2 {
+  margin: -15em -35em;
+  width: 80%;
+  /* filter: drop-shadow(2px 8px 8px rgb(22, 19, 19)); */
+}
+
+.work {
+  margin-top: 55em;
+}
+
+.work h1 {
+  font-weight: 200;
+  max-width: 8em;
+  text-transform: uppercase;
+  font-size: 5em;
+}
+
+.work p {
+  padding: 1em;
+  color: black;
+}
+
+.lit li {
+  list-style: "👉🏼";
+  animation: boune 1.5s infinite;
+
+}
+
+
+kbd {
+  /* color: rgb(246, 141, 159); */
+  /* color: rgba(0, 0, 0, 0.641); */
+  font-size: 25px;
+  padding: 2px;
+  margin: 0.3em 0;
+  background-color: transparent;
+}
+
+.con {
+  display: inline-flex;
+  justify-content: space-evenly;
+  animation: bouce 1.5s infinite;
+  top: 10%;
+  transition: all 2s;
+
+}
+
+@keyframes bounce {
+
+  0%,
+  20%,
+  50%,
+  80%,
+  100% {
+    transform: translateX(-2.5px);
+  }
+
+  40% {
+    transform: translateX(8px);
+  }
+
+  60% {
+    transform: translateX(2px);
+  }
+}
+
+
+.typ h1 {
+  font-weight: 200;
+  text-transform: uppercase;
+  font-size: 5em;
+  max-width: 7em;
+  text-align: start;
+  margin-left: 10.9em;
+}
+
+.typ ul {
+  margin-left: 43.5em;
+  list-style: decimal;
+  font-size: 20px;
+  font-weight: lighter;
+}
+
+.typ ul li {
+  padding: 1em 0 0 0;
+  text-transform: uppercase;
+
+}
+
+.typ ul li a {
+  text-decoration: none;
+  /* color: black; */
+  /* color: black; */
+  color: aliceblue;
+  font-style: italic;
+  font-weight: 200;
+}
+
+.typ ul li a:hover {
+  /* color:rgb(108, 131, 116); */
+  /* color: black; */
+  border-bottom: 1px solid red;
+  transition: all 1s;
+}
+
+
+
+footer p {
+  background-color: rgba(36, 40, 37, 0.512);
+  color: aliceblue;
+  margin-bottom: -2em;
+  padding: 5px;
+}
+
+#studyhubToggle .fa-bars {
+  /* color: aliceblue; */
+  display: none;
+}
+
+
+@media screen and (max-width:575px) {
+  body {
+    background-color: rgb(12, 21, 28);
+
+  }
+
+  .nb h1 {
+    font-weight: 500;
+    font-size: 35px;
+    color: aliceblue;
+  }
+
+  .nb p {
+    /* font-weight: 200; */
+    color: aliceblue;
+  }
+
+  .nb {
+    position: sticky;
+    top: 0;
+    /* margin-top: -2em; */
+    padding-top: 1em;
+    padding-bottom: 0.5em;
+    /* background-color: rgba(175, 188, 188, 0.449); */
+    background-color: rgba(36, 40, 37, 0.856);
+    color: aliceblue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .intro h1 {
+    font-weight: 300;
+    max-width: 8em;
+    text-transform: uppercase;
+    font-size: 3.2em;
+    color: aliceblue;
+  }
+
+  .intro p {
+    /* font-style: italic; */
+    text-align: justify;
+    justify-content: center;
+    font-weight: 270;
+    color: aliceblue;
+  }
+
+  .intro img {
+    margin-top: 1em;
+    /* opacity: 0.3; */
+    width: 30em;
+    padding-left: 5em;
+    /* filter: blur(2px); */
+  }
+
+  .auth {
+    margin-top: 5em;
+  }
+
+  .auth h1 {
+    text-align: start;
+    font-weight: 300;
+    /* max-width: 8em; */
+    text-transform: uppercase;
+    font-size: 3.5em;
+    margin-right: 2em;
+    color: aliceblue;
+  }
+
+  .auth p {
+    /* margin-left: -3em; */
+    text-align: justify;
+    justify-content: center;
+    color: aliceblue;
+    font-style: normal;
+  }
+
+  .auth .img2 {
+    width: 100;
+    margin-left: 5em;
+    margin-top: 1em;
+    margin-bottom: 5em;
+  }
+
+
+  .work {
+    margin-top: -20em;
+  }
+
+  .work h1 {
+    padding-top: 2em;
+    text-align: start;
+    font-weight: 300;
+    text-transform: uppercase;
+    font-size: 3.5em;
+    max-width: 8em;
+    margin-top: 5em;
+    color: aliceblue;
+  }
+
+  .work .lit {
+    margin-top: -2em;
+    font-weight: 100;
+    /* font-style: italic; */
+  }
+
+
+  .typ h1 {
+    font-weight: 300;
+    text-transform: uppercase;
+    font-size: 3.4em;
+    max-width: 7em;
+    text-align: start;
+    margin-left: 0em;
+    padding-left: 10px;
+    color: aliceblue;
+  }
+
+  .typ ul {
+    margin-left: 0em;
+    color: aliceblue;
+    font-weight: 500;
+  }
+
+  .typ ul li a {
+    color: aliceblue;
+    font-style: normal;
+    font-weight: 500;
+  }
+
+  sub {
+    font-size: 15px;
+    /*
+  margin-top: -5em; */
+    margin-left: -10.5em;
+    /* padding-top: 10em; */
+    position: relative;
+    top: 1.5em;
+
+  }
+
+  #leftNavbar {
+    position: fixed;
+    top: 0;
+    left: -200px;
+    width: 200px;
+    height: 200vh;
+    /* background-color: #312c2c95; */
+    background-color: rgba(36, 40, 37, 0.496);
+    padding-top: 250px;
+    transition: left 0.3s ease;
+    backdrop-filter: blur(10px);
+    margin-top: -6em;
+  }
+
+
+  #leftNavbar a {
+    padding: 15px;
+    border-bottom: 2px solid grey;
+  }
+
+  #leftNavbar a :hover {
+    display: inline-block;
+    border-bottom: 1px solid red;
+  }
+
+  #studyhubToggle .fa-bars {
+    /* color: aliceblue; */
+    display: inline-block;
+  }
+
+  #studyhubToggle {
+    font-size: 1.8em;
+    margin-top: 0em;
+  }
+
+
+}
