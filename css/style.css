@@ -295,7 +295,7 @@ footer p {
     font-weight: 300;
     max-width: 8em;
     text-transform: uppercase;
-    font-size: 3.2em;
+    font-size: 3em;
     color: aliceblue;
   }
 
@@ -438,3 +438,90 @@ footer p {
 
 
 }
+@media (min-width:300px) and  (max-width:397px) {
+  .intro{
+    margin-top: 3em;
+  }
+  
+  .intro h1 {
+    font-weight: 300;
+    max-width: 8em;
+    text-transform: uppercase;
+    font-size: 11.5vw;
+    color: aliceblue;
+  }
+
+  .intro p {
+    /* font-style: italic; */
+    text-align: justify;
+    justify-content: center;
+    font-weight: 270;
+    color: aliceblue;
+  }
+
+  .intro img {
+    margin-top: -1em;
+    /* opacity: 0.3; */
+    width: 25em;
+    /* margin-right:2em; */
+    /* filter: blur(2px); */
+  }
+
+  .auth {
+    margin-top: 5em;
+  }
+
+  .auth h1 {
+    text-align: start;
+    font-weight: 300;
+    /* max-width: 8em; */
+    text-transform: uppercase;
+    font-size: 11.5vw;
+    margin-right: 3.2em;
+    text-align: start;
+    color: aliceblue;
+  }
+
+  .auth p {
+    /* margin-left: -3em; */
+    text-align: justify;
+    justify-content: center;
+    color: aliceblue;
+    font-style: normal;
+  }
+
+  .auth .img2 {
+    width: 100;
+    margin-left: 4em;
+    margin-top: 1em;
+    margin-bottom: 5em;
+  }
+
+  .typ h1{
+    font-size: 16vw;
+  }
+}
+
+
+@media screen and (max-width:320px) {
+  .intro img {
+    margin-top: -1em;
+    /* opacity: 0.3; */
+    width: 25em;
+    margin-right:-1em;
+    /* filter: blur(2px); */
+  }
+}
+
+
+@media screen and (max-width:345px) {
+ .work h1{
+  font-size: 13vw;
+ }
+ 
+  .typ h1{
+    font-size: 11.5vw;
+    font-weight: 500;
+  }
+}
+
