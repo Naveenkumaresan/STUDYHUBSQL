@@ -415,15 +415,30 @@ footer p {
     margin-top: -6em;
   }
 
-
   #leftNavbar a {
+    display: block;
+    color: aliceblue;
+    text-decoration: none;
     padding: 15px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 900;
+    text-align: end;
+    cursor: auto;
     border-bottom: 2px solid grey;
   }
 
-  #leftNavbar a :hover {
+
+  #leftNavbar a:hover {
+    position: fixed;
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
     display: inline-block;
-    border-bottom: 1px solid red;
+    border-bottom: 2px solid red;
+    transition: all 3s;
+    opacity: 0.6;
   }
 
   #studyhubToggle .fa-bars {
@@ -500,6 +515,45 @@ footer p {
   .typ h1{
     font-size: 16vw;
   }
+   #leftNavbar {
+    position: fixed;
+    top: 0;
+    left: -200px;
+    width: 200px;
+    height: 200vh;
+    /* background-color: #312c2c95; */
+    background-color: rgba(36, 40, 37, 0.496);
+    padding-top: 250px;
+    transition: left 0.3s ease;
+    backdrop-filter: blur(10px);
+    margin-top: -6em;
+  }
+
+  #leftNavbar a {
+    display: block;
+    color: aliceblue;
+    text-decoration: none;
+    padding: 15px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 900;
+    text-align: end;
+    cursor: auto;
+    border-bottom: 2px solid grey;
+  }
+
+
+  #leftNavbar a:hover {
+    position: fixed;
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    display: inline-block;
+    border-bottom: 2px solid red;
+    transition: all 3s;
+    opacity: 0.6;
+  }
 }
 
 
@@ -510,6 +564,45 @@ footer p {
     width: 25em;
     margin-right:-1em;
     /* filter: blur(2px); */
+  }
+   #leftNavbar {
+    position: fixed;
+    top: 0;
+    left: -200px;
+    width: 200px;
+    height: 200vh;
+    /* background-color: #312c2c95; */
+    background-color: rgba(36, 40, 37, 0.496);
+    padding-top: 250px;
+    transition: left 0.3s ease;
+    backdrop-filter: blur(10px);
+    margin-top: -6em;
+  }
+
+  #leftNavbar a {
+    display: block;
+    color: aliceblue;
+    text-decoration: none;
+    padding: 15px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 900;
+    text-align: end;
+    cursor: auto;
+    border-bottom: 2px solid grey;
+  }
+
+
+  #leftNavbar a:hover {
+    position: fixed;
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    display: inline-block;
+    border-bottom: 2px solid red;
+    transition: all 3s;
+    opacity: 0.6;
   }
 }
 
@@ -522,6 +615,45 @@ footer p {
   .typ h1{
     font-size: 11.5vw;
     font-weight: 500;
+  }
+   #leftNavbar {
+    position: fixed;
+    top: 0;
+    left: -200px;
+    width: 200px;
+    height: 200vh;
+    /* background-color: #312c2c95; */
+    background-color: rgba(36, 40, 37, 0.496);
+    padding-top: 250px;
+    transition: left 0.3s ease;
+    backdrop-filter: blur(10px);
+    margin-top: -6em;
+  }
+
+  #leftNavbar a {
+    display: block;
+    color: aliceblue;
+    text-decoration: none;
+    padding: 15px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 900;
+    text-align: end;
+    cursor: auto;
+    border-bottom: 2px solid grey;
+  }
+
+
+  #leftNavbar a:hover {
+    position: fixed;
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    display: inline-block;
+    border-bottom: 2px solid red;
+    transition: all 3s;
+    opacity: 0.6;
   }
 }
 
