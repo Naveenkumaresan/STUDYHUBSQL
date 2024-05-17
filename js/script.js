@@ -112,4 +112,10 @@ document.addEventListener("DOMContentLoaded", function () {
       offline.style.display = "block";
     });
   });
-  
+
+var toastElement = document.getElementById('myToast');
+var toast = new bootstrap.Toast(toastElement);
+toast.show();
+setTimeout(function() {
+    toast.hide();
+}, 5000);
