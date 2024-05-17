@@ -118,4 +118,4 @@ var toast = new bootstrap.Toast(toastElement);
 toast.show();
 setTimeout(function() {
     toast.hide();
-}, 5000);
+}, 10000);
