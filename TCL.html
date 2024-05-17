@@ -2,7 +2,6 @@
 <html lang="en">
 
 <head>
-  <meta http-equiv="Cache-Control" content="max-age=3600">
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>STUDYHUB | TCL</title>
@@ -64,9 +63,20 @@
       <div class="copy-text container">
         <input type="text" class="text" value="COMMIT;" id="textToCopy" readonly>
       </div>
+
+      
+    <section class="assistant">
+      <button class="talk" onclick=" Commitcmd()"><i class="fa-solid fa-robot"></i> HubTalk</button>
+      <button onclick="togglePause()">Pause</button>
+      <div class="content">
+          <div id="wordsCommit"></div>
+      </div>
+  </section>
       <h6>
         Example:
       </h6>
+
+  
 
       <div class="table-responsive">
         <h6>The Example table</h6>
@@ -127,6 +137,8 @@
           <i class="fa fa-clone" aria-hidden="true"></i>
         </button>
       </div>
+
+
 
 
       <div class="table-responsive">
@@ -190,6 +202,8 @@
 
 
     </div>
+
+
   </section>
 
 
@@ -205,6 +219,16 @@
         <input type="text" class="text" value=" ROLLBACK" id="textToCopy" readonly>
 
       </div>
+      <section class="assistant">
+        <button class="talk" onclick=" Rollbackcmd()"><i class="fa-solid fa-robot"></i> HubTalk</button>
+        <!-- <button onclick="togglePause()">Pause</button> -->
+        <div class="content">
+            <div id="wordsRollback"></div>
+        </div>
+    </section>
+
+
+
       <h6>
         Example:
       </h6>
@@ -289,6 +313,17 @@
         <input type="text" class="text" value="SAVEPOINT SAVEPOINT_NAME" id="textToCopy" readonly>
 
       </div>
+
+      <section class="assistant">
+        <button class="talk" onclick=" savepointcmd()"><i class="fa-solid fa-robot"></i> HubTalk</button>
+        <!-- <button onclick="togglePause()">Pause</button> -->
+        <div class="content">
+            <div id="wordssavepoint"></div>
+        </div>
+    </section>
+
+
+
       <div>
         <h6>
           Example:
@@ -372,9 +407,11 @@
       <p>&COPY; Copyright Own by StudyHub</p>
     </div>
   </footer>
+  <script src="https://kit.fontawesome.com/def8c494cf.js" crossorigin="anonymous"></script>
   <script src="js/bootstrap.bundle.min.js"></script>
   <script src="js/TCL.js"></script>
   <script src="js/script.js"></script>
+  <script src="js/voice.js"></script>
 </body>
 
 </html>
