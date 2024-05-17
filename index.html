@@ -2,7 +2,6 @@
 <html lang="en">
 
 <head>
-    <meta http-equiv="Cache-Control" content="max-age=3600">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>STUDYHUB|SQL</title>
@@ -45,7 +44,14 @@
                 things like adding, updating, finding, and sorting that data. It's like the handy tool that makes sure
                 all the information is well-organized and easy to work with, kind of like a digital librarian for data!
             </p>
-            <img src="img/Logo Image.png" alt="" class="float-end ">
+            <img src="img/Logo Image.png" alt="" class="container-sm  float-end ">
+        </div>
+    </section>
+    <section class="assistant container">
+        <button class="talk" onclick=" basecmd()"><i class="fa-solid fa-robot"></i> HubTalk</button>
+        <!-- <button onclick="togglePause()">Pause</button> -->
+        <div class="content">
+            <div id="wordsbase"></div>
         </div>
     </section>
 
@@ -75,6 +81,14 @@
                 <img src="img/OIP (5).jpg" alt="" class="img2 float-start ">
             </div>
 
+    </section>
+
+    <section class="assistant container">
+        <button class="talk" onclick=" aboutcmd()"><i class="fa-solid fa-robot"></i> HubTalk</button>
+        <!-- <button onclick="togglePause()">Pause</button> -->
+        <div class="content">
+            <div id="wordsabout"></div>
+        </div>
     </section>
 
 
@@ -109,18 +123,17 @@
     </section>
 
 
-
-
-
     <footer>
         <div class="text-center ">
             <p>&COPY; Copyright Own by StudyHub</p>
         </div>
     </footer>
 
+    <script src="https://kit.fontawesome.com/def8c494cf.js" crossorigin="anonymous"></script>
 
     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/script.js"></script>
+   <script src="js/voice.js"></script>
 </body>
 
 </html>
