@@ -656,4 +656,21 @@ footer p {
     opacity: 0.6;
   }
 }
+.assistant >button{
+  border-radius: 25px;
+}
 
+
+.styled-output {
+  font-family: 'Courier New', Courier, monospace; /* Monospaced font for code-like appearance */
+  background-color: #494747; /* Light grey background */
+  /* border: 1px solid #ddd; Light border */
+  padding: 10px; /* Padding around the text */
+  border-radius: 4px; /* Rounded corners */
+  white-space: pre-wrap; /* Preserve whitespace */
+  word-wrap: break-word; /* Allow words to wrap */
+  margin-top: 10px; /* Space above the div */
+  line-height: 1.5; /* Line height for readability */
+  color:aliceblue; /* Text color */
+  margin-bottom: -1em;
+}
