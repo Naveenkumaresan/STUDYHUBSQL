@@ -111,7 +111,7 @@ function aboutcmd() {
         return;
     }
     speak(
-        "Donald and Raymond created SQL, a language for managing databases. It became a star, making data organization easy for everyone.",
+        "In 1970 Donald and Raymond created SQL, a language for managing databases. It became a star, making data organization easy for everyone.",
         targetDiv
     );
 }
