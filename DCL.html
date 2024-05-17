@@ -2,7 +2,6 @@
 <html lang="en">
 
 <head>
-    <meta http-equiv="Cache-Control" content="max-age=3600">  
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Studyhub | DCL</title>
@@ -104,6 +103,15 @@
             </p>
      
         </div>
+       
+        <section class="assistant container">
+            <button class="talk" onclick="Grantcmd()"><i class="fa-solid fa-robot"></i> HubTalk</button>
+            <!-- <button onclick="togglePause()">Pause</button> -->
+            <div class="content">
+                <div id="wordsGrant"></div>
+            </div>
+        </section>
+
     </section>
 
 
@@ -148,6 +156,15 @@
        
 
         </div>
+
+        <section class="assistant container">
+            <button class="talk" onclick=" Revokcmd()"><i class="fa-solid fa-robot"></i> HubTalk</button>
+            <!-- <button onclick="togglePause()">Pause</button> -->
+            <div class="content">
+                <div id="wordsRevok"></div>
+            </div>
+        </section>
+
     </section>
 
 
@@ -201,9 +218,11 @@
             <p>&COPY; Copyright Own by StudyHub</p>
         </div>
     </footer>
+    <script src="https://kit.fontawesome.com/def8c494cf.js" crossorigin="anonymous"></script>
     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/DCL.js"></script>
     <script src="js/script.js"></script>
+    <script src="js/voice.js"></script>
 </body>
 
 </html>
