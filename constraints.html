@@ -2,7 +2,6 @@
 <html lang="en">
 
 <head>
-  <meta http-equiv="Cache-Control" content="max-age=3600">
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Studyhub | Constraints</title>
@@ -44,13 +43,13 @@
       <h1>SQL Constraints</h1>
 
       <p class="container">
-        constraints are rules applied to columns in a table to enforce data integrity and ensure accuracy, consistency,
+        Constraints are rules applied to columns in a table to enforce data integrity and ensure accuracy, consistency,
         and reliability of the data.
       </p>
 
     </div>
   </Section>
-  <div class="container">
+  <div class="sub head container">
     <h6>The Constraint can be used in two ways</h6>
     <ul>
       <li>On Creation of The table</li>
@@ -89,6 +88,14 @@
             <i class="fa fa-clone" aria-hidden="true"></i>
         </button> 
       </div>
+      <section class="assistant">
+        <button class="talk" onclick="Notnullcmd()"><i class="fa-solid fa-robot"></i> HubTalk</button>
+        <!-- <button onclick="togglePause()">Pause</button> -->
+        <div class="content">
+            <div id="wordsNotnull"></div>
+        </div>
+    </section>
+
       
 
         <table class="table table-bordered table-dark">
@@ -156,6 +163,17 @@
             <i class="fa fa-clone" aria-hidden="true"></i>
         </button> 
       </div>
+
+      <section class="assistant">
+        <button class="talk" onclick="Uniquecmd()"><i class="fa-solid fa-robot"></i> HubTalk</button>
+        <!-- <button onclick="togglePause()">Pause</button> -->
+        <div class="content">
+            <div id="wordsUnique"></div>
+        </div>
+    </section>
+
+
+
         <div class="table-responsive">
           <table class="table table-bordered table-dark  ">
             <thead>
@@ -215,6 +233,15 @@
             <i class="fa fa-clone" aria-hidden="true"></i>
         </button>  
       </div>
+
+
+      <section class="assistant">
+        <button class="talk" onclick="PRIMARYKEYcmd()"><i class="fa-solid fa-robot"></i> HubTalk</button>
+        <!-- <button onclick="togglePause()">Pause</button> -->
+        <div class="content">
+            <div id="wordsPRIMARYKEY"></div>
+        </div>
+    </section>
        
         <div class="table-responsive">
           <table class="table table-bordered table-dark  ">
@@ -274,6 +301,16 @@
           <i class="fa fa-clone" aria-hidden="true"></i>
       </button> 
     </div>
+
+    <section class="assistant">
+      <button class="talk" onclick="FOREIGNKEYcmd()"><i class="fa-solid fa-robot"></i> HubTalk</button>
+      <!-- <button onclick="togglePause()">Pause</button> -->
+      <div class="content">
+          <div id="wordsFOREIGNKEY"></div>
+      </div>
+  </section>
+
+
         <div class="table-responsive">
           <table class="table table-bordered table-dark  ">
             <thead>
@@ -324,6 +361,15 @@
                     <i class="fa fa-clone "> Copy </i>
                 </button> -->
       </div>
+      
+    <section class="assistant">
+      <button class="talk" onclick="CheckKEYcmd()"><i class="fa-solid fa-robot"></i> HubTalk</button>
+      <button onclick="togglePause()">Pause</button>
+      <div class="content">
+          <div id="wordsCheckKEY"></div>
+      </div>
+  </section>
+
       <h6>Example</h6>
       <div>
         <!-- <div class="copy-text">
@@ -410,6 +456,18 @@
             <i class="fa fa-clone" aria-hidden="true"></i>
         </button> 
       </div>
+
+      
+      <section class="assistant">
+        <button class="talk" onclick="DEFAULTKEYcmd()"><i class="fa-solid fa-robot"></i> HubTalk</button>
+        <!-- <button onclick="togglePause()">Pause</button> -->
+        <div class="content">
+            <div id="wordsDEFAULTKEY"></div>
+        </div>
+    </section>
+
+   
+
         <div class="table-responsive">
           <table class="table table-bordered table-dark  ">
             <thead>
@@ -505,9 +563,12 @@
       <p>&COPY; Copyright Own by StudyHub</p>
     </div>
   </footer>
+  <script src="https://kit.fontawesome.com/def8c494cf.js" crossorigin="anonymous"></script>
+
   <script src="js/bootstrap.bundle.min.js"></script>
   <script src="js/constraint.js"></script>
   <script src="js/script.js"></script>
+  <script src="js/voice.js"></script>
 </body>
 
 </html>
