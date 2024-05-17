@@ -65,7 +65,6 @@ body {
 
 .nb {
   /* background-color: rgba(36, 40, 37, 0.856); */
-  background-color: rgba(36, 40, 37, 0.856);
   position: sticky;
   top: 0;
   box-shadow: 2px whitesmoke;
@@ -453,6 +452,7 @@ footer p {
 
 
 }
+
 @media (min-width:300px) and  (max-width:397px) {
   .intro{
     margin-top: 3em;
@@ -515,7 +515,8 @@ footer p {
   .typ h1{
     font-size: 16vw;
   }
-   #leftNavbar {
+
+  #leftNavbar {
     position: fixed;
     top: 0;
     left: -200px;
@@ -554,6 +555,7 @@ footer p {
     transition: all 3s;
     opacity: 0.6;
   }
+
 }
 
 
@@ -565,7 +567,7 @@ footer p {
     margin-right:-1em;
     /* filter: blur(2px); */
   }
-   #leftNavbar {
+  #leftNavbar {
     position: fixed;
     top: 0;
     left: -200px;
@@ -604,6 +606,7 @@ footer p {
     transition: all 3s;
     opacity: 0.6;
   }
+
 }
 
 
@@ -616,7 +619,7 @@ footer p {
     font-size: 11.5vw;
     font-weight: 500;
   }
-   #leftNavbar {
+  #leftNavbar {
     position: fixed;
     top: 0;
     left: -200px;
@@ -655,22 +658,31 @@ footer p {
     transition: all 3s;
     opacity: 0.6;
   }
+
 }
+
 .assistant >button{
   border-radius: 25px;
 }
 
 
 .styled-output {
-  font-family: 'Courier New', Courier, monospace; /* Monospaced font for code-like appearance */
-  background-color: #494747; /* Light grey background */
+  font-family: 'Courier New', Courier, monospace; 
+  background-color: #494747; 
   /* border: 1px solid #ddd; Light border */
-  padding: 10px; /* Padding around the text */
-  border-radius: 4px; /* Rounded corners */
-  white-space: pre-wrap; /* Preserve whitespace */
-  word-wrap: break-word; /* Allow words to wrap */
-  margin-top: 10px; /* Space above the div */
-  line-height: 1.5; /* Line height for readability */
-  color:aliceblue; /* Text color */
+  padding: 10px; 
+  border-radius: 4px; 
+  white-space: pre-wrap; 
+  word-wrap: break-word; 
+  margin-top: 10px; 
+  line-height: 1.5; 
+  color:aliceblue; 
   margin-bottom: -1em;
+}
+
+#myToast {
+  position: fixed;
+  top: 100px;
+  right: 20px;
+  background-color: #494747;
 }
