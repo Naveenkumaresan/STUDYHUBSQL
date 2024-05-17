@@ -2,7 +2,6 @@
 <html lang="en">
 
 <head>
-    <meta http-equiv="Cache-Control" content="max-age=3600">
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Studyhub | DQL</title>
@@ -93,6 +92,18 @@
             
             
         </div>
+
+
+        <section class="assistant container">
+            <button class="talk" onclick="Selectcmd()"><i class="fa-solid fa-robot"></i> HubTalk</button>
+            <!-- <button onclick="togglePause()">Pause</button> -->
+            <div class="content">
+                <div id="wordsSelect"></div>
+            </div>
+        </section>
+
+
+        
         <h6> The result table is</h6>
         <div class=" table-responsive">
            
@@ -176,10 +187,12 @@
             <p>&COPY; Copyright Own by StudyHub</p>
         </div>
     </footer>
+    <script src="https://kit.fontawesome.com/def8c494cf.js" crossorigin="anonymous"></script>
+
     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/DQL.js"></script>
     <script src="js/script.js"></script>
-    
+    <script src="js/voice.js"></script>
 </body>
 
 </html>
